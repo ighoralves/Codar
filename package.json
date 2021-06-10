@@ -1,0 +1,16 @@
+{
+  "name": "projetocodar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.34.1"
+  },
+  "scripts": {
+    "dev": "parcel watch ./assets/styles/index.scss --public-url ./",
+    "build": "parcel build <your entry file>"
+  }
+}

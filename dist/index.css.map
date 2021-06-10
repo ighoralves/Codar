@@ -1,0 +1,1 @@
+{"version":3,"sources":["components\\Header.scss"],"names":[],"mappings":"AAAA;EACI","file":"index.css","sourceRoot":"..\\assets\\styles","sourcesContent":["header {\r\n    color: blue;\r\n}"]}
