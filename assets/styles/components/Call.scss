@@ -1,0 +1,39 @@
+.Section {
+  width: 100%;
+  
+  img {
+    max-width: 450px;
+    margin: 100px 115px;
+    position: relative;
+  }
+
+  .Text {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 150px;
+    
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 50px;
+    color: rgb(189, 22, 22);
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+  .Button {
+    border: 0;
+    background-color: rgb(189, 22, 22);
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 40px;
+    margin-top: 40px;
+  }
+
+}

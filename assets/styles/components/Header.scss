@@ -1,0 +1,45 @@
+.Header {
+  border-bottom: 3px solid #eee;
+  padding: 20px;
+  width: 100%;
+
+  h1 {
+    color: rgb(189, 22, 22);
+    font-size: 40px; 
+    font-weight: bold;
+    margin: 30px;
+  }
+
+  &-menu {
+  
+    ul {
+      display: flex;
+      gap: 35px;
+      justify-content: center;
+      margin: -53px 0 0 754px;
+    
+    }
+
+    li {
+      color: #000;
+      font-size: 18px;
+      justify-content: center;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .Login {
+      border: 0;
+      background-color: rgb(189, 22, 22);
+      border-radius: 10px;
+      color: #fff;
+      margin: -10px;
+      padding: 5px 50px;
+    }
+
+  }
+
+}
