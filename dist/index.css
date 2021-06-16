@@ -133,4 +133,39 @@ body {
   margin-top: 40px;
 }
 
+.Hero .Container {
+  display: grid;
+  gap: 45px;
+  margin: 120px 220px;
+}
+.Hero img {
+  max-width: 35px;
+}
+.Hero-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: -27px 70px;
+}
+.Hero .Photo {
+  margin: -400px 540px;
+  max-width: 480px;
+  position: absolute;
+}
+.Hero .Form {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.Hero .Ligamos {
+  border: 0;
+  background-color: #bd1616;
+  border-radius: 7px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin: -38px 200px;
+  position: absolute;
+  padding: 18px 30px;
+}
+
 /*# sourceMappingURL=index.css.map */
