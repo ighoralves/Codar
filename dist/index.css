@@ -163,9 +163,79 @@ body {
   color: #fff;
   font-size: 16px;
   font-weight: bold;
-  margin: -38px 200px;
+  margin: -25px 200px;
   position: absolute;
-  padding: 18px 30px;
+  padding: 5px 30px;
+}
+
+.Author .Container {
+  display: grid;
+  gap: 200px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 155px 175px;
+}
+.Author .CardAuthor {
+  background: #b8b7b7;
+  border-radius: 20px;
+  padding: 25px 1px;
+}
+.Author .CardAuthor-frase {
+  font-size: 16px;
+  margin: -62px 121px;
+  position: absolute;
+}
+.Author .CardAuthor-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 120px;
+}
+.Author .CardAuthor p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 120px;
+}
+.Author img {
+  max-width: 70px;
+}
+
+#Footer {
+  background-color: #000;
+  height: 400px;
+  width: 100%;
+}
+#Footer .Container {
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#Footer h3 {
+  color: #fff;
+  margin-top: 60px;
+  font-size: 40px;
+}
+#Footer h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+#Footer p {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 20px;
+}
+#Footer span {
+  color: #fff;
+  font-size: 20px;
+}
+#Footer .Footer-redes {
+  display: flex;
+  gap: 8px;
+  margin-top: 30px;
+}
+#Footer .Footer-redes li a {
+  border: 3px solid #fec63e;
+  padding: 15px;
 }
 
 /*# sourceMappingURL=index.css.map */
